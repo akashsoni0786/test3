@@ -1,0 +1,42 @@
+.navbar{
+    position: absolute;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    background-color: #d2d3d6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftdiv{
+    padding: 0px 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.leftdiv p{
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+}
+.leftdiv >*{
+    margin: 0px 10px;
+}
+.rightdiv{
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightdiv p{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.logoimg{
+    width: 50px;
+}
+.cartimg{
+    width: 40px;
+    height: 40px;
+}
